@@ -1,6 +1,6 @@
 # Data Preparation
 
-This section pre-processes the data that is subsequently used in the analysis of wheather patterns in Silicon Valley. Specifically, the analysis presented in subsequent sections will show that the range of temperatures has widen in 2015 as compared to the previous 10-year period (from 2005 to 2014).
+This section pre-processes the data that is subsequently used in the analysis of wheather patterns in Silicon Valley. Specifically, the analysis presented in subsequent sections will show that the range of temperatures has widened in 2015 as compared to the previous 10-year period (from 2005 to 2014).
 
 Data acquisition is described in the [previous section](https://eagronin.github.io/sv-weather-acquire).
 
