@@ -76,6 +76,8 @@ def transform_weather_data():
     df_joined = df_joined[~((df_joined.Date.dt.month == 2) & (df_joined.Date.dt.day == 29))]
     
     return df_joined
+
+print(df_joined.head())
 ```
 
 The output below shows the first five rows of the transformed data frame:
