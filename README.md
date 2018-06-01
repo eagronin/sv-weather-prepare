@@ -78,4 +78,15 @@ def transform_weather_data():
     return df_joined
 ```
 
+The output below shows the first five rows of the transformed data frame:
+
+```
+        Date  TMIN  TMAX
+0 2005-01-01    22   144
+1 2006-01-01    56   172
+2 2007-01-01    11   189
+3 2008-01-01   -11   222
+4 2009-01-01    44   178
+```
+
 Next step: [Analysis](https://eagronin.github.io/sv-weather-analyze/)
