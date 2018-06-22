@@ -1,12 +1,16 @@
 # Data Preparation
 
-This section pre-processes the data that is subsequently used in the analysis of wheather patterns in Silicon Valley. Specifically, the analysis presented in subsequent sections will show that the range of temperatures has widened in 2015 as compared to the previous 10-year period (from 2005 to 2014).
+## Overview
+
+This section prepares the weather data imported in the [previous section](https://eagronin.github.io/sv-weather-acquire) for analysis. The analysis in the subsequent sections shows that the range of temperatures in Silicon Valley has widened in 2015 as compared to the previous 10-year period (from 2005 to 2014).
 
 Data acquisition is described in the [previous section](https://eagronin.github.io/sv-weather-acquire).
 
-The analysis and visualization of results are described in the [next section](https://eagronin.github.io/sv-weather-analyze/).
+The analysis is described in the [next section](https://eagronin.github.io/sv-weather-analyze/).
 
-The following code imports the data, then outputs the first five rows and summary statistics:
+## Data Processing
+
+The following code imports the data, then outputs the first five rows of the data and summary statistics:
 
 ```python
 df = read_weather_data()
@@ -43,7 +47,7 @@ max       456.000000
 Missing values across all attributes and samples:  0
 ```
 
-The original data has a column 'Element' with TMIN and TMAX as values.  First, we reshape the data to convert the Element column to two TMIN and TMAX columns by creating two datasets for TMIN and TMAX, respectively, and then joining the datasets.  Next, we remove leap days (i.e. February 29th) from the dataset for the purpose of subsequent analysis and visualization.
+The original data has a column 'Element' with TMIN and TMAX as values.  First, we reshape the data to convert the Element column into two TMIN and TMAX columns by creating two datasets for TMIN and TMAX, respectively, and then joining the datasets.  Next, we remove leap days (i.e. February 29th) from the dataset for the purpose of subsequent analysis and visualization.
 
 ```python
 def transform_weather_data():
