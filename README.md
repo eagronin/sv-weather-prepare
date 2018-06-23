@@ -8,6 +8,10 @@ Data acquisition is described in the [previous section](https://eagronin.github.
 
 The analysis is described in the [next section](https://eagronin.github.io/sv-weather-analyze/).
 
+This project is based on assignments from Applied Plotting, Charting & Data Representation in Python by University of Michigan on Coursera
+
+The analysis for this project was performed in Python.
+
 ## Data Processing
 
 The following code imports the data, then outputs the first five rows of the data and summary statistics:
